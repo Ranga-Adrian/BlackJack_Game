@@ -23,7 +23,7 @@ function startGame() {
 function newCard() {
     console.log('Drawing a new card from the deck ! ');
     let random = getRandomInt(min, max);
-    cards.textContent += ' ' + random;
+    cards.textContent += ' ' + random; 
     sum += random;
     if (sum === 21) {
         message.textContent = "Whoraaayyy ! You've won the BlackJack ! :D ";
